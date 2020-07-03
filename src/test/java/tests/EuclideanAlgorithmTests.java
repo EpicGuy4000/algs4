@@ -1,4 +1,4 @@
-package exercise.tests;
+package tests;
 
 import exercises.EuclideanAlgorithm;
 import junitparams.JUnitParamsRunner;
