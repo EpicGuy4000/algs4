@@ -13,7 +13,7 @@ public class EuclideanAlgorithm {
         StdOut.printf("Greatest common divisor is %d\r\n", findGreatestCommonDivisor(x, y));
     }
 
-    private static int findGreatestCommonDivisor(int firstNumber, int secondNumber) {
+    public static int findGreatestCommonDivisor(int firstNumber, int secondNumber) {
         if (secondNumber == 0) {
             return firstNumber;
         }
