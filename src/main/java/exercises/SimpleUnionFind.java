@@ -6,14 +6,12 @@ import java.util.Hashtable;
 import java.util.List;
 
 public class SimpleUnionFind implements IUnionFind {
-    private final int TotalPoints;
     private final int[] Points;
 
     private Dictionary<Integer, List<Integer>> Components;
 
     public SimpleUnionFind(int totalPoints) {
-        TotalPoints = totalPoints;
-        Points = new int[TotalPoints];
+        Points = new int[totalPoints];
         Components = new Hashtable<>();
 
         for (int i = 0; i < totalPoints; i++) {

@@ -1,11 +1,11 @@
 package tests;
 
 import exercises.IUnionFind;
-import exercises.SimpleUnionFind;
+import exercises.QuickUnion;
 
-public class SimpleUnionFindTests extends UnionFindTests {
+public class QuickUnionTests extends UnionFindTests {
     @Override
     public IUnionFind CreateInstanceOfAlgorithm(int totalPoints) {
-        return new SimpleUnionFind(10);
+        return new QuickUnion(10);
     }
 }
